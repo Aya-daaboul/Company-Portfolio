@@ -1,0 +1,19 @@
+header{
+    background-image:url(../images/heroimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    color:white;
+}
+
+.location_button{
+    border-radius:15px;
+    color:white;
+    background-color:#1BC768;
+    border-color:transparent;
+    padding:5px;
+}
