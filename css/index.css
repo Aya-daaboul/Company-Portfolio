@@ -1,19 +1,132 @@
+
 header{
     background-image:url(../images/heroimg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
-    display: flex;
+    display:flex;
     flex-direction: column;
-    height:100vh;
+    height:70vh;
     color:white;
+}
+
+.navigation_bar{
+    display:flex;
+    flex-wrap:nowrap;
+    margin:10px;
+    justify-content:space-evenly;
+}
+
+.logo{
+    display:inline-flex;
+    
+}
+.nav_item--norm{
+    align-self:center;
+    margin-left:10vw;
+}
+.nav_item--button{
+    margin-left:10vw;
+    align-self:center;
+
 }
 
 .location_button{
     border-radius:15px;
     color:white;
-    background-color:#1BC768;
+    background-color:#1acc6a;
     border-color:transparent;
     padding:5px;
+}
+.hero_title{
+    padding:10px;
+    height:min-content;
+    width:70vw; 
+    display:inline-flex;
+    font-size:3em; /*still have to fix margins and responsiveness*/
+    margin-left:20px;
+}
+.hero_description{
+    padding:10px;   
+    margin-left:20px;
+    font-size:1.3em;
+
+}
+.benefits_section{
+    display:flex;
+    margin-left:10vw;
+    margin-right:10vw;
+    margin-top:10vh;
+    padding:10px;
+    justify-content:space-around;
+
+}
+.benefits_title{
+    color:#043CAA;
+    font-size:2em;
+    font-weight:bold;
+}
+ul{
+    list-style-type:none;
+    line-height:2;
+}
+li{
+    font-size:1.4em;
+}
+.perscription_button{
+    color:#1BC768;
+    border-radius:15px;
+    padding:5px;
+    margin-left:2.5vw; /* still have to animate button use dome js functionality*/
+    background-color:transparent;
+    border:3px solid #1BC768;
+    font-weight:bold;
+    
+
+}
+.perscription_button:hover{
+    background-color:rgb(235, 235, 235);
+    color:#18ac5a;
+    transition:0.5ms;
+}
+.bubble{
+    /*this should be responsive*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:470px) {
+    header{
+        background-size:contain;
+    }
+    .navigation_bar{
+        flex-wrap:wrap;
+    }
+    .nav_item--norm{
+        margin-left:5vw;
+    }
+    
+}
+@media screen and (max-width:300px){
+    .navigation_bar{
+        flex-direction:column;
+        align-items:flex-end;
+        justify-content:center;
+        margin-top:4vh;
+
+    }
+    
 }
