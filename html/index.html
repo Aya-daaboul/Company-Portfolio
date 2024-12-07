@@ -7,100 +7,164 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/index.css">
 </head>
+
 <body>
+
     <header>
         <nav class="navigation_bar">
-            <div class="logo">
-                <img src="../images/logo.png" alt="logo">
-                <h2>Levalis</h2>
-            </div>
-            <div class="nav_item nav_item--norm"> Home </div>
-            <div class="nav_item nav_item--norm"> About Us </div>
-            <div class="nav_item nav_item--norm"> Our Products </div>
-            <div class="nav_item nav_item--norm"> Contact Us </div>
 
-            <div class="nav_item nav_item--button">
-                <a href="https://www.bing.com/maps?osid=8cf6a7bf-069d-4618-8926-9488ec0c5c44&cp=33.863396~35.534549&lvl=16&pi=0&v=2&sV=2&form=S00027" >
-                    <button class="location_button">
-                        Locations
-                    </button>
-                </a>
-            </div>
+                <div class="logo">
+                    <img src="../images/logo.png" alt="logo">
+                    <h2>Levalis</h2>
+                </div>
 
+                <div class="nav_item nav_item--norm"> Home </div>
+                <div class="nav_item nav_item--norm"> About Us </div>
+                <div class="nav_item nav_item--norm"> Our Products </div>
+                <div class="nav_item nav_item--norm"> Contact Us </div>
+
+                <div class="nav_item nav_item--button">
+                        <a href="https://www.bing.com/maps?osid=8cf6a7bf-069d-4618-8926-9488ec0c5c44&cp=33.863396~35.534549&lvl=16&pi=0&v=2&sV=2&form=S00027" target="_blank">
+                            <button class="location_button">
+                                    Locations
+                            </button>
+                        </a>
+                </div>
 
         </nav>
 
-        <p class="hero_title"> 
-            Delivering Excellence in Healthcare for Your Needs 
-        </p>
-        <p class="hero_description">Focused on oncology, nuclear medicine, and radiology
-            with growing expertise in gastrology and anesthesia.</p>
+            <p class="hero_title"> 
+                Delivering Excellence in Healthcare for Your Needs 
+            </p>
+            <p class="hero_description">Focused on oncology, nuclear medicine, and radiology
+                with growing expertise in gastrology and anesthesia.</p>
+
         <div class="search">
-            
-        </div>
+                <form id="form_search" role="search">
+                        <input type="form_search" id="form" name="q" placeholder="Search for drugs in our store ">
+                        <button class="searching">Find Drug</button>
+                </form>
+       </div>
      
     </header>
+
     <main>
         <div class="benefits_section">
-            <div class="benefits">
-                <div class="benefits_title">
-                    Comprehensive Healthcare Solutions
-                </div>
-             <ul>
-                <li><img src="../images/Exclude.png"> Search and find your drugs</li>
-                <li><img src="../images/Exclude.png"> We have drugs to treat tumors</li>
-                <li><img src="../images/Exclude.png"> Get notified when your drug is available</li>
-             </ul>
 
-            <button class="perscription_button">
-                GET PERSCRIPTION &rarr;
-            </button>
+            <div class="benefits">
+                    <div class="benefits_title">
+                        Comprehensive Healthcare Solutions
+                </div>
+                <ul>
+                    <li><img src="../images/Exclude.png"> Search and find your drugs</li>
+                    <li><img src="../images/Exclude.png"> We have drugs to treat tumors</li>
+                    <li><img src="../images/Exclude.png"> Get notified when your drug is available</li>
+                </ul>
+
+                <button class="perscription_button">
+                    GET PERSCRIPTION &rarr;
+                </button>
             </div>
+
             <div class="bubble">
-                <img src="../images/bubble1.png" alt="image" width="400px" height="400px"/>
+                <img class="bubble_img" src="../images/bubble1.png" alt="image"/>
             </div>
+
         </div>
-        <div class="benefits_section">
-            <div class="bubble">
-                <img src="../images/bubble2.png"/>
-            </div>
-            <div class="benefits">
-                <div class="benefits_title">
-                    Get your drugs at your doorstep
-                </div>
-             <ul>
-                <li><img src="../images/Exclude.png"> Get straigh delivery to your doorstep</li>
-                <li><img src="../images/Exclude.png"> We deliver within 24hrs of request</li>
-                <li><img src="../images/Exclude.png"> We guarantee speedily response</li>
-             </ul>
 
-            <button class="perscription_button">
-                GET PERSCRIPTION &rarr;
-            </button>
+        <div class="benefits_section">
+
+            <div class="bubble">
+                <img class="bubble_img" src="../images/bubble2.png"/>
+            </div>
+
+            <div class="benefits">
+                    <div class="benefits_title">
+                        Get your drugs at your doorstep
+                    </div>
+                <ul>
+                        <li><img src="../images/Exclude.png"> Get straigh delivery to your doorstep</li>
+                        <li><img src="../images/Exclude.png"> We deliver within 24hrs of request</li>
+                        <li><img src="../images/Exclude.png"> We guarantee speedily response</li>
+                </ul>
+
+                <button class="perscription_button">
+                        GET PERSCRIPTION &rarr;
+                </button>
+
             </div>
            
         </div>
-        <div class="benefits_section">
-            <div class="benefits">
-                <div class="benefits_title">
-                    Set up your profile and get refill easily
-                </div>
-             <ul>
-                <li><img src="../images/Exclude.png"> When you are a member your refill is easier</li>
-                <li><img src="../images/Exclude.png"> With one click your medicine is on it’s way</li>
-                <li><img src="../images/Exclude.png"> Select a health care specialist</li>
-             </ul>
 
-            <button class="perscription_button">
-                GET PERSCRIPTION &rarr;x
-            </button>
-            </div>
-            <div class="bubble">
-                <img src="../images/bubble3.png"/>
+        <div class="benefits_section benefits_section--last">
+                <div class="benefits">
+                        <div class="benefits_title">
+                            Set up your profile and get refill easily
+                        </div>
+                        <ul>
+                                <li><img src="../images/Exclude.png"> When you are a member your refill is easier</li>
+                                <li><img src="../images/Exclude.png"> With one click your medicine is on it’s way</li>
+                                <li><img src="../images/Exclude.png"> Select a health care specialist</li>
+                        </ul>
+
+                        <button class="perscription_button">
+                            GET PERSCRIPTION &rarr;
+                        </button>
+                </div>
+                <div class="bubble">
+                     <img class="bubble_img"src="../images/bubble3.png"/>
+                </div>
+            
+        </div>
+        <div class="partners">
+               <p class="ptitle">Our partners</p>
+
+                <div class="partner">
+                        <img src="../images/logo_celsius.png" alt="Celsuis ">
+                        <img src="../images/konyl.png" alt="Konsyl ">
+                        <img src="../images/major_pharma.png" alt="Mjor Pharma ">
+                        <img src="../images/mallinckrodt.png" alt="mallinckrodt">
+                        <img src="../images/polatom.png" alt="polatom">
+                        <img src="../images/rotop.png" alt="rotop">
+                        <img src="../images/aln.png" alt="aln">
+                        <img src="../images/antmed.png" alt="antmed">
+                </div>
+        </div>
+        <div class="opinion">
+
+                <img class="op_img" src="../images/meds.png" width="400px" height="250px">
+         
+            <div class="opinion_card">
+
+                    <h2>What our Clients Say</h2>
+
+                    <p class="opinion_text">“The ease of delivery is one that I 
+                        depended on <br>when I was bedriden and couldn’t even walk. 
+                        Their services is awesome”</p>
+
+                    <p class="client_name">- Gerald Maldiliene</p>
+
             </div>
             
         </div>
     </main>
+    <div class="last_container">
+            <div class="footer_div footer_div--1">
+
+
+            </div>
+
+            <div class="footer_div footer_div--2">
+
+            </div>
+    </div>
+            
+    <footer>
+
+        <p id="1233"> Copyrights reserved </p>
+
+    </footer>
+    
     
 </body>
 </html>
