@@ -1,8 +1,9 @@
+
 header{
     background-image:url(../images/heroimg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size:contain;
     background-attachment: fixed;
     display:flex;
     flex-direction: column;
@@ -206,35 +207,98 @@ li{
 .last_container{
     display:flex;
     flex-direction:column;
-    margin-left:10vw;
-    margin-right:10vw;
     margin-top:10vh;
     flex-wrap:wrap;
     align-items:center;
     justify-content:center;
     background-color: #043CAA;
 }
-.footer_div--1{
+.last_div--1{
+    color:white;
     display:flex;
     align-items:flex-start;
     justify-content:space-evenly;
+    padding:2vh;
+
 }
-.footer_div--2{
+.details_sub{
+    flex-direction: column;
+    align-content:flex-end;
+    margin-right:5vw;
+
+}
+.subscribe{
     display:flex;
-    align-items:flex-start;
+    align-content:center;
+    justify-content:space-evenly;
+    padding:10px;
+    border-radius:15px;
+    flex-direction:column;
+}
+.all_button{
+    margin-top:2vh;
+}
+.sub{
+    padding:10px;
+    background-color:#40cb7f;
+    border-radius: 15px;
+    border:0px;
+
+}
+#sub{
+    border-radius:15px;
+    border:1px solid white;
+    padding:10px;
+}
+.last_div--2{
+    display:flex;
+    align-content:flex-start;
+    justify-content:center;
+    color:white;
+    padding:2vh;
+    
+}
+.last_div--2{
+    display:flex;
+    align-content:flex-start;
     justify-content:space-evenly;
 }
-.footer{
+.list_final--1{
+    margin-top:2vh;
+}
+.quick_links{
+    list-style-type: none;
+}
+
+.quick_links li:first-child {
+    font-weight:bold;
+}
+.location{
+    list-style-type: none;
+}
+.location li:first-child{
+    font-weight:bold;
+}
+.socials li:first-child{
+    font-weight:bold;
+
+}
+.social_platform{
+    text-decoration: none;
+    color:white;
+}
+footer{
     background-color: #043CAA;
     display:flex;
     align-items:center;
     justify-content: center;
     text-align:center;
+    color:white;
 }
-#1233{
-    text-align:center;
-    margin: 0;
-
+.pp{
+   text-decoration:none;
+   color:white;
+   font-weight: bold;
 }
 
 @media screen and (max-width:600px) {
@@ -270,6 +334,18 @@ li{
         justify-content:center;
    
        } 
+    .last_div--2{
+        flex-wrap:wrap;
+        flex-direction:column;
+        align-items:flex-start;
+        justify-content:flex-start;
+    }
+    .last_div--1{
+        flex-direction:column;
+        align-items:flex-start;
+        justify-content:flex-start;
+
+    }
        
 }
 @media screen and (max-width:300px){
