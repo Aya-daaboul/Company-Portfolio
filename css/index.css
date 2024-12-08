@@ -107,12 +107,12 @@ li{
 .perscription_button{
     border-radius:15px;
     padding:5px;
-    margin-left:2.5vw; /* still have to animate button use some js functionality*/
+    margin-left:2.5vw; 
     font-weight:bold;
     --raise-distance: 3px; /* css custom properties*/
     --hover-shadow: var(--raise-distance) var(--raise-distance) 3px /*for shadow spread*/ #0c9047;
     --bg-color:#1BC768;
-    --border-color: #1BC768;; /* why border doesnt appear*/
+    --border-color: #1BC768;;
     --text-color: #ffffff; /* could use as a variable for many elements more consistency & reusability ( spec for dark light mode toggling) */
     color: var(--text-color); 
     display: flex;
